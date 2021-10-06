@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.chapterDetailDiv{
+    height: 150pt;
+    width: 96%;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}

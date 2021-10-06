@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 150;
+    width: 100%;
+    background-color: #461E27 !important;
+    flex-direction: row;
+}
+nav > h1{
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    padding: 20pt;
+    color: white;
+    float: left;
+}
+nav > input{
+    height: 30pt;
+    width: 70%;
+    border: none;
+    font-size: 18pt;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background-color: #461E27 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20pt;
+    color: white;
+}
+nav > input::placeholder{
+    color: rgba(255, 255, 255, 0.466);
+}
+.chapterDetailDiv{
+    height: 150pt;
+    width: 96%;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.cahpterBreifInfo{
+    width: 100pt;
+    height: 100pt;
+    background-color: white;
+    border-radius: 10pt;
+    box-shadow: 2pt 2pt 10pt 0pt rgb(201, 201, 201);
+    padding: 10pt;
+    position: relative;
+    clear: both;
+    z-index: 1;
+}
+.chapterNumHeading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+    float: left;
+}
+.surahTypeView{
+    height: 3em;
+    width: 3em;
+    border-radius: 100em;
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    float: right;
+}
+.surahTypeImgView{
+    height: 1.5em;
+    width: 1.5em;
+    align-self: center;
+}
+.versesCount{
+    background-color: #461E27;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    padding-top: 4pt;
+    padding-bottom: 4pt;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border-bottom-left-radius: 10pt;
+    border-bottom-right-radius: 10pt;
+}
+.chapterDetailInfo{
+    width: 80%;
+    align-self: center;
+    height: 100pt;
+    background-color: white;
+    border-radius: 10pt;
+    box-shadow: 2pt 2pt 10pt 0pt rgb(201, 201, 201);
+    padding: 10pt;
+    position: absolute;
+    margin-top: 20pt;
+    margin-left: auto;
+    z-index: 0;
+}
+.surahNameTranslationHeading{
+    margin-left: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 20pt;
+    font-weight: lighter;
+}
+.surahNameHeading{
+    margin-left: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #461E27;
+    font-size: 12pt;
+}
+.paraAndNoteDiv{
+    background-color: white;
+    bottom: 0;
+    position: absolute;
+    flex-direction: row;
+    margin-left: 15%;
+    padding-bottom: 10pt;
+}
+.paraAndNoteCount{
+    padding: 20pt;
+    font-size: 12pt;
+    color: #461E27;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
